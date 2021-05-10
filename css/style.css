@@ -1,0 +1,169 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*--------------------*/
+
+
+body{
+    color: #ececec;
+    padding: 120px 100px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.maketbase{
+    height: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background: #e9e7ec;
+    box-shadow: -50px 50px 70px 10px rgba(0, 0, 0, 0.75);
+}
+
+/* ліва сторона  */
+.skills{
+    position: relative;
+    background: #cecdd3;
+    color: #313038;
+    max-width: 250px;
+    min-width: 250px;
+}
+.foto{
+    width: 70%;
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+.black{
+    height: 97%;
+    background: #3a393f;
+}
+.white{
+    background: #e9e7ec;
+    height: 130px
+}
+.content_left{
+    padding: 100px 20px 20px 20px;
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+.profession{
+    text-align: center;
+}
+.contact{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+}
+.contactimg{
+        width: 20px;
+        margin: 10px 7px -6px 0;
+        
+}
+.contacttext{
+    font-weight: 900;
+    font-size: 11px;
+    color: #313038;
+    text-decoration: none;
+}
+.skills_elements{
+    margin: 0px 0 0 17px;
+   font-size: 12px;
+}
+.progres{
+    margin: 0 0 0 23px ;
+}
+.icons{
+    margin: 13px 10px;
+    width: 45px;
+    height: 45px;
+}
+#car{
+    height: 30px;
+    margin: 13px 10px 20px 10px;
+}
+#plane{
+    height: 25px;
+    margin: 13px 10px 20px 10px;
+}
+
+/* права сторона  */
+.about_me{
+    overflow: auto;
+    max-width: 900px;
+    width: 60%;
+    padding: 0px 0px 40px 70px;
+    color: #000;
+}
+
+.titlemini{
+    text-transform: uppercase;
+    padding: 25px 0 0 0;
+    margin-bottom: -25px;
+}
+.bold{
+    font-size: 30px;
+}
+.text{
+    text-align: justify;
+    padding: 25px 0;
+    font-size: 13px;
+}
+
+.yearwork{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.year{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 70px 0 0;
+}
+
+.work{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text2{
+    font-size: 13px;
+    margin: 0 0 0 135px;
+}
+
+.lastblock{
+    display: flex;
+    margin: 20px 0px 0 0;
+}
+
+.last{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+}
+.lastright{
+    margin-left: 100px;
+}
+
+.lastprof{
+    margin-top: 7px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.lastphone{
+    font-size: 13px;
+    text-transform: none;
+}
+
+.lastnumber{
+    font-weight: 200;
+}
